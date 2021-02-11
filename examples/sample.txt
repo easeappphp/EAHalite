@@ -1,0 +1,1 @@
+EAHalite, a very simple and safe PHP library that provides wrapper methods to handle encryption, decryption along with authentication in both symmetric & asymmetric modes for both text content and files appropriately. This library is based upon Halite library from Paragonie Initiative Enterprises.
