@@ -23,6 +23,12 @@
             "email": "raghuveer.dendukuri@gmail.com",
 			"homepage": "https://www.easeapp.org/",
             "role": "Developer"
+        },
+		{
+            "name": "Pradeep Ganapathy",
+            "email": "bu.pradeep@gmail.com",
+			"homepage": "https://www.easeapp.org/",
+            "role": "Developer"
         }
     ],
 	"autoload": {
