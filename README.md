@@ -12,8 +12,8 @@
 > Key Lifecycle Management processes are in the planning, even though there is no specific deadline for this thought process.
 
 ## Contributors
-> Pradeep Ganapathy
-> Krishnaveni Nimmala
+> - Pradeep Ganapathy
+> - Krishnaveni Nimmala
 
 ## License
 This software is distributed under the [MIT](https://opensource.org/licenses/MIT) license. Please read [LICENSE](https://github.com/easeappphp/PDOLight/blob/main/LICENSE) for information on the software availability and distribution.
