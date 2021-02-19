@@ -180,7 +180,7 @@ class EAHalite {
 			} else {
 				
 				//Add a Prefix to Content, so even Single Digit/Character can still be sealed, with sufficient entropy
-				$dataToBeSealed = "prefix".$dataToBeSealed;
+				$dataToBeSealed = "prx".$dataToBeSealed;
 				
 				$sealedData = \ParagonIE\Halite\Asymmetric\Crypto::seal(
 					new \ParagonIE\Halite\HiddenString(
@@ -225,7 +225,7 @@ class EAHalite {
 				);
 				
 				//Remove the Prefix that is added to the Content, in seal operation, to support even Single Digit/Character inputs, with sufficient entropy
-				$unSealedData = substr($unSealedData->getString(),6);
+				$unSealedData = substr($unSealedData->getString(),3);
 				
 				$unSealedData = (string)$unSealedData;
 				
